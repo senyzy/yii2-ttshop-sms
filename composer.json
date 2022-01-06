@@ -1,17 +1,17 @@
 {
-    "name": "wi1dcard/yii2-ttshop-sms",
+    "name": "senyzy/yii2-ttshop-sms",
     "description": "Third-party SMS gateway service integrations for Yii2.",
     "type": "library",
     "require": {
-        "php": ">=5.4",
-        "yiisoft/yii2": "~2.0.5",
+        "php": ">=7.2",
+        "yiisoft/yii2": "^2.0",
         "qcloudsms/qcloudsms_php": "^0.1.2",
         "flc/alidayu": "^2.0"
     },
     "authors": [
         {
-            "name": "wi1dcard",
-            "email": "yokka47@qq.com"
+            "name": "senyzy",
+            "email": "senyzy@foxmail.com"
         }
     ],
     "autoload":{
