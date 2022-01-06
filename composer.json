@@ -2,6 +2,7 @@
     "name": "senyzy/yii2-ttshop-sms",
     "description": "Third-party SMS gateway service integrations for Yii2.",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": ">=7.2",
         "yiisoft/yii2": "^2.0",
