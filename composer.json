@@ -2,12 +2,17 @@
     "name": "senyzy/yii2-ttshop-sms",
     "description": "Third-party SMS gateway service integrations for Yii2.",
     "type": "library",
-    "license": "MIT",
     "require": {
-        "php": ">=7.2",
+        "php": ">=5.6",
         "yiisoft/yii2": "^2.0",
-        "qcloudsms/qcloudsms_php": "^0.1.2",
+        "qcloudsms/qcloudsms_php": "^0.1.4",
         "flc/alidayu": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ttshop\\Sms\\": "lib/"
+        }
     },
     "authors": [
         {
@@ -15,9 +20,5 @@
             "email": "senyzy@foxmail.com"
         }
     ],
-    "autoload":{
-        "psr-4": {
-            "Ttshop\\Sms\\": "lib/"
-        }
-    }
+    "minimum-stability": "dev"
 }
